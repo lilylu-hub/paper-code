@@ -179,3 +179,37 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Python cache =====
+__pycache__/
+*.py[cod]
+
+# ===== Virtual environments =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== Logs & outputs (按需保留/忽略) =====
+*.log
+runs/
+results/
+outputs/
+checkpoints/
+
+# ===== Data (通常不上传原始数据) =====
+data/
+datasets/
+
+# ===== Secrets =====
+.env
+*.key
+*.pem
